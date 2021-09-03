@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  list-style: none;
+  font-size: 20px; 
+  border-bottom: 2px solid black;
+  padding: 0 0em 1em 0em;
+}
+
+li{
+  cursor: pointer;
+  padding: .5em 1em;
+  border: none;
+  transition: background .2s ease-in;
+}
+li:hover{
+  background: black;
+  color: white;
+}
+
+[data-tab-content]{
+  display: none;
+}
+
+.active[data-tab-content]{
+  display: block;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: Courier;
+  text-align: center;
+}
+
+p{}
+i{
+  color: black;
+  font-size: 18px;
+}

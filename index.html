@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Simple Tab</title>
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link href="./src/styles.css" type="text/css" rel="stylesheet">
+	<meta charset="UTF-8" />
+</head>
+
+<body>
+	
+		<ul>
+		<li data-tab-target="#home" >Home</li>
+		<li data-tab-target="#about">About</li>
+		<li data-tab-target="#contact">Contact</li>
+
+	</ul>
+
+	<div class="content">
+		<div id="home" class="active" data-tab-content>
+			<h3>This is my Home <i class='bx bx-home-alt'></i></h3>
+			<p>I'm Adam :). A front end developer. <span class="stack"> Express.js</span>, 
+				<span class="stack"> React.js</span>, and <span class="stack"> Node.js</span>; is my Tech Stack. I also made use of other React Libaries like create-react-app, Hooks, Redux, Styled Component and React Virtualize; in my Web Development cycle.
+				</p>
+				
+		</div>
+		<div id="about" data-tab-content>
+			<h3>Here am gonna tell you more about me <i class='bx bxs-contact'></i></h3>
+			<p>A passionate Techie. I learn latest Web Technologies
+				throught constant learning and practise. I design aesthestic
+				User Experience with React(Styled Component) and jQuery
+				 </p>
+		</div>
+		<div id="contact" data-tab-content>
+			<h3>Here for my contact <i class='bx bxs-contact'></i></h3>
+			<p>
+					<i class='bx bxl-github'></i>:	
+				 </p>
+			<p>
+					<i class='bx bxl-twitter'></i>:	
+				 </p>
+			<p>
+					<i class='bx bx-mail-send' ></i>: adamjamiu98@gmail.com	
+				 </p>
+		</div>
+	</div>
+
+	<script src="src/index.js">
+	</script>
+</body>
+
+</html>
