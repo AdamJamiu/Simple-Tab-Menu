@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
@@ -47,6 +47,10 @@ p > a{
     color: black;    
 }
 
+p > a:hover{
+    text-decoration: underline;
+}
+
 #contact >p {
     display: flex;
     flex-direction: row;
@@ -58,4 +62,13 @@ p > a{
 i {
     color: rgb(105, 99, 99);
     font-size: 18px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-end;
+    background-color: red;
+    color: white;
 }
